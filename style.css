@@ -1,0 +1,52 @@
+body {
+  background-color: #87aba3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+input {
+  height: 220px;
+  width: 235px;
+  background-color: #424242;
+  border: none;
+  color: #ffffff;
+}
+table {
+  width: 50%;
+  height: 30vh;
+}
+.calculator {
+  border: 1px;
+  border-radius: 10px;
+  width: 250px;
+  height: 550px;
+  background-color: #424242;
+}
+button {
+  border: none;
+  width: 57px;
+  height: 47px;
+  border-radius: 10px;
+  color: azure;
+  font-weight: 600;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.two {
+  padding-right: 113px;
+  background-color: #cdd9d6;
+}
+.color1 {
+  background-color: #cdd9d6;
+}
+.color2 {
+  background-color: #2da386;
+}
+.color3 {
+  background-color: #87aba3;
+}

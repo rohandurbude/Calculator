@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+ <table>
+        <tr>
+          <td colspan="4"><input type="text" id="resultinputtag" /></td>
+        </tr>
+
+        <tr>
+          <td>
+            <button onclick="clearone()" class="color1">C</button>
+          </td>
+          <td>
+            <button onclick="allclear()"  class="color1">AC</button>
+          </td>
+          <td>
+            <button onclick="equation('%')" class="color1">%</button>
+          </td>
+          <td ><button onclick="(equation('/'))" class="color2">/</button></td>
+        </tr>
+        <br />
+        <tr>
+          <td><button onclick="equation('1')"  class="color3">1</button></td>
+          <td><button onclick="equation('2')"  class="color3">2</button></td>
+          <td><button onclick="equation('3')"  class="color3">3</button></td>
+          <td><button onclick="equation('*')" class="color2">*</button></td>
+        </tr>
+        <br />
+        <tr>
+          <td><button onclick="equation('4')"   class="color3">4</button></td>
+          <td><button onclick="equation('5')" class="color3">5</button></td>
+          <td><button onclick="equation('6')" class="color3">6</button></td>
+          <td><button onclick="equation('-')" class="color2">-</button></td>
+        </tr>
+        <br />
+        <tr>
+          <td><button onclick="equation('7')" class="color3">7</button></td>
+          <td><button onclick="equation('8')" class="color3">8</button></td>
+          <td><button onclick="equation('9')" class="color3">9</button></td>
+          <td><button onclick="equation('+')" class="color2">+</button></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <button onclick="equation('0')" class="two">0</button>
+          </td>
+          <td><button onclick="equation('.')" class="color3">.</button></td>
+          <td>
+            <button onclick="solve()" class="color2"
+            >
+              =
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
